@@ -11,7 +11,7 @@ return;
 mid = (lo + hi) / 2;
 if (list[mid] == key)
 {
-printf("Key found at Index %d\n",mid);
+printf("Key found at Index %d\n ",mid);
 }
 else if (list[mid] > key)
 {
